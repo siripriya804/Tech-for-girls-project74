@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(120deg, #fbd3e9, #bb377d);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #bb377d;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #bb377d;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #bb377d;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #a62d68;
+}
+
+#counter {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.success-message {
+  color: green;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
